@@ -2,7 +2,6 @@
 
 **Numerical Integration Methods** is a Python project that demonstrates how to approximate definite integrals using the **Rectangular Method** and **Trapezoidal Method**. These methods are foundational in numerical analysis and are widely used in scientific computing, engineering, and data analysis.
 
----
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -15,7 +14,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
----
 
 ## 📊 Introduction
 Numerical integration is a technique used to approximate the value of a definite integral when an analytical solution is difficult or impossible to obtain. This project provides Python implementations of two popular numerical integration methods:
@@ -25,11 +23,7 @@ Numerical integration is a technique used to approximate the value of a definite
 
 These methods are particularly useful for integrating complex functions or data sets where traditional calculus techniques are not feasible.
 
----
-
 ## 🔧 Methods
-
----
 
 ### Rectangular Method
 The Rectangular Method approximates the integral by dividing the area under the curve into rectangles and summing their areas.
@@ -41,8 +35,6 @@ The Rectangular Method approximates the integral by dividing the area under the 
   where \( x_i^* \) is the midpoint of each subinterval.
 
 - **Use Case**: Simple and easy to implement, but generally less accurate compared to other methods like the Trapezoidal or Simpson's Rule.
-
----
 
 ### Trapezoidal Method
 The Trapezoidal Method approximates the integral by dividing the area under the curve into trapezoids and summing their areas. This method is more accurate than the Rectangular Method because it accounts for the slope of the function between points.
@@ -116,3 +108,5 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
